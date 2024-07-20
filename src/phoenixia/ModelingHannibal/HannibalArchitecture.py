@@ -34,7 +34,7 @@ The Phoenician empire perished and Tunis-IA rose from its ashes.
 """
 
 
-class H(
+class Hannibal(
     nn.Module,
     PyTorchModelHubMixin,
     library_name="phoenixia",
