@@ -1,1 +1,1 @@
-from HannibalArchitecture import Hannibal  # noqa: F401
+from .HannibalArchitecture import Hannibal  # noqa: F401
