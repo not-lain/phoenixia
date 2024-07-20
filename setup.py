@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 setup(
     name="pheonixia",
     version="0.0.1",
-    description="a repository for phoenix-ia models",
+    description="a repository for Phoenix-IA models",
     long_description=pathlib.Path("README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
     Homepage="https://github.com/not-lain/phoenixia",
