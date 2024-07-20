@@ -5,7 +5,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     required = f.read().splitlines()
 
 setup(
-    name="pheonixia",
+    name="phoenixia",
     version="0.0.1",
     description="a repository for Phoenix-IA models",
     long_description=pathlib.Path("README.md").read_text(encoding="utf-8"),

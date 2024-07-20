@@ -5,11 +5,11 @@ This repository is using Hugging Face's PyTorchModelHubMixin classes
 ## How to use
 
 ```
-pip install pheonixia
+pip install phoenixia
 ```
 
 ```python
-from pheonixia import Hannibal
+from phoenixia import Hannibal
 model = Hannibal(a=2,b=1)
 model.push_to_hub(repo_id)
 
