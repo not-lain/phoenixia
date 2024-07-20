@@ -7,8 +7,9 @@ model_card_template = """
 {{ card_data }}
 ---
 
-This model has been pushed to the Hub using the [PytorchModelHubMixin](https://huggingface.co/docs/huggingface_hub/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin) integration:
-- Library: {{ repo_url | default("[More Information Needed]", true) }}
+This model has been pushed to the Hub using the [PytorchModelHubMixin](https://huggingface.co/docs/huggingface_hub/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin) integration.
+
+Library: [Phoenix-IA]({{repo_url}})
 
 ## how to load
 ```
@@ -36,9 +37,9 @@ The Phoenician empire perished and Tunis-IA rose from its ashes.
 class H(
     nn.Module,
     PyTorchModelHubMixin,
-    library_name="PyTorchModelHubMixin-template",
+    library_name="phoenixia",
     repo_url="https://github.com/not-lain/phoenixia",
-    tags=["visual-question-answering"],
+    tags=["visual-question-answering", "phoenixia","hannibal"],
     model_card_template=model_card_template,
 ):
     """an AI model for visual question answering"""
